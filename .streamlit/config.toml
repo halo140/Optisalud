@@ -1,0 +1,20 @@
+[client]
+showSidebarNavigation = false
+
+[theme]
+primaryColor = "#e5dcd3"  # Color principal (ejemplo: verde)
+backgroundColor = "#e5dcd3"  # Fondo en modo claro
+secondaryBackgroundColor = "#cac7c2"  # Fondo de widgets en modo claro
+textColor = "#262730"  # Color del texto en modo claro
+font = "monospace"  # Fuente (sans serif, serif, monospace)
+
+# Configuración para modo oscuro
+[theme.dark]
+primaryColor = "#1DB954"  # Color principal (el mismo en ambos modos)
+backgroundColor = "#121212"  # Fondo oscuro
+secondaryBackgroundColor = "#282828"  # Fondo de widgets en oscuro
+textColor = "#FFFFFF"  # Texto blanco en modo oscuro
+
+# Ajustes generales
+browser.gatherUsageStats = false
+theme.base = "light"  # Permite que se ajuste automáticamente según el sistema
